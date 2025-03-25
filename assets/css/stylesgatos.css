@@ -1,0 +1,16 @@
+body{
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
