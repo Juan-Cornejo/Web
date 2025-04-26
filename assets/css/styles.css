@@ -8,9 +8,10 @@ h1 {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6); /* Sombra más suave en el texto */
     letter-spacing: 2px; /* Espaciado entre letras para más impacto */
     text-transform: uppercase; /* Convierte el texto a mayúsculas */
-    padding: 10px
+    padding: 10px;
 }
-body{
+
+body {
     height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: wheat;
@@ -21,11 +22,19 @@ body{
     margin: 0;
     flex-direction: column;
 }
-img{
+
+img {
     width: 150px;
     height: 150px;
     border-radius: 20px; /* Bordes redondeados (opcional) */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
 }
+
+img:hover {
+    transform: translateY(-10px); /* Eleva la imagen 10px al hacer hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más prominente para el efecto de elevación */
+}
+
 footer {
     background-color: #333; /* Color de fondo oscuro */
     color: white; /* Color de texto blanco */
